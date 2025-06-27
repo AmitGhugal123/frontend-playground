@@ -20,6 +20,7 @@ This repo helps me practice frontend concepts like layouts, DOM, events, and res
 ## Author
 
 **Amit Ghugal**  
-📧 amitghugal123@gmail.com  
+📧 amitghugal512@gmail.com  
 🌐 [GitHub](https://github.com/AmitGhugal123)
+
 
