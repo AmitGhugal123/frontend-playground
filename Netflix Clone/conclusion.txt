@@ -1,0 +1,6 @@
+errors
+1) solved by gpt
+  i.e :- z-index only works on positioned elements 
+  (relative, absolute, fixed, or sticky). 
+  Make sure the parent elements are properly positioned 
+  if they should be affected by z-index

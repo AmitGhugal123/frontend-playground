@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    text-decoration: none;
+    color: white;
+}
+body{
+ 
+}
+.main_box{
+    background: url(pexels-photoo.jpeg);
+    height: 100vh;
+    background-size: cover;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    /* width:20px;
+
+     */
+}
+.btn_one i {
+    font-size: 30px;
+    font-weight: 700;
+    position:absolute;
+    left: 16px;
+    line-height: 60px;
+    transition: all 0.3s linear;
+}
+.sidebar_menu .btn_two i{
+    font-size: 25px;
+    line-height: 60px;
+    position: absolute;
+    left: 250px;
+    transition: all 0.3s linear;
+    /* opacity: 0;  (it will hide the cross symbol)*/
+    /* cursor: pointer;  (hand vala sign)*/
+
+
+}
+
+.sidebar_menu{
+    position: fixed;
+     left: -300px; /*       key(to hide the side bar without css */
+    background-color: rgba(72, 67, 67, 0.6);
+    height: 100vh;
+    width: 300px;
+    box-shadow: 0 0 8px gainsboro;
+    transition: all 0.3s linear;
+
+}
+.sidebar_menu .logo{
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+    box-shadow: 0 2px 3px rgb(191, 180, 180);
+    height: 60px;
+}
+.sidebar_menu .logo a {
+    position: absolute;
+    left: 80px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.sidebar_menu .menu{
+    position: absolute;
+    width: 100%;
+    top: 80px;
+}
+
+.sidebar_menu .menu li{
+    margin-top: 8px;
+    padding:  15px 20px;
+}
+.sidebar_menu .meny i,a{
+    font-size: 25px ;
+}
+
+.sidebar_menu .menu i{
+    padding-right: 8px;
+
+}
+.sidebar_menu .social_media{
+    opacity: 0.5;
+    position: absolute;
+    left: 25%;
+    bottom: 30px;
+}
+.sidebar_menu .social_media i{
+    opacity: 0.5;
+    padding: 0 5px;
+    
+   
+}
+#check{
+    display: none;
+}
+
+.sidebar_menu .menu li:hover{
+    box-shadow: 0 0 4px rgb(134, 126, 126);
+}
+.btn_one i:hover{
+    font-size: 40px;
+}
+.btn_two i:hover{
+    font-size: 30px;
+}
+.sidebar_menu .social_media i:hover{
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+/* key feature */
+#check:checked ~ .sidebar_menu{
+    left: 0;
+}
+
+ /* when side bar opened then the cross symble will hide */
+#check:checked ~ .btn_one i{
+    opacity: 0;
+}

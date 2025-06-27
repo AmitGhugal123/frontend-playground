@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+.bgimg {
+    background-image: url(assets/images/backgroundimg.jpg);
+    background-position: center center;
+    /* background will be in center with x& y; */
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-color:black;
+}
+body{
+    background-color:black;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.black {
+    /* height: 100vh;
+    width: 100vw; */
+    height: 90vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.44);
+    /* Use rgba for transparency */
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* Ensure positioning starts from the left */
+    z-index: 10;
+    /* Ensure this has a higher z-index than other elements */
+}
+
+.logo {
+    width: 20vw;
+    color: red;
+    position: relative;
+    z-index: 20;
+    /* Ensure logo has a higher z-index if needed */
+}
+
+nav {
+    max-width: 80vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    position: relative;
+    z-index: 15;
+    /* Ensure nav has a proper z-index */
+}
+div .text {
+    color:white;
+    justify-content: center;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;  
+    /* position will pop out from the the black */
+    font-family: "Martel Sans", sans-serif;
+    text-indent: 10px;
+    text-align: center;
+    gap: 23px;
+    padding: 30px;
+
+    
+}
+.text:first-child{
+    font-weight: 900;
+    font-size: 48px;
+    /* padding: 7.5rem 0 2rem; */
+    display: block;
+    text-align: center;
+   /* font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+*/
+}   
+
+.text2{
+    font-family:"Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.text3{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+.email{
+    justify-content:center;
+    align-content: center;
+    display: flex;
+    /* flex-direction: row; */
+}
+.line{
+background-color: rgb(69, 69, 69);
+height: 4px;
+}
+.redbtn{
+    border-radius: 0px;
+    border: none;
+    height: 45px;
+    width: 20vw;
+    border-radius: calc(0.25rem - 0.0625rem);
+    border-color: rgba(0, 0, 0, 0);
+    transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+    background: rgb(245, 0, 12);
+    margin: 10px;
+    text-overflow: clip;
+    color: white;
+   
+}
+#email{
+    background-color: black;
+    border-radius: 8px;
+    width: 40vw;
+    height: 50px;
+    margin:10px;
+    justify-content: center;
+    align-content: center; 
+    border: white;
+    border-color: white;
+    box-shadow: none;
+    padding: 2px;
+
+}
+#sign{
+    width: 15vw;
+    height: 50px;
+    margin:10px;
+}
+#lag{
+        background-color: black;
+        border-radius: 8px;
+        width: 15vw;
+        height: 50px;
+        margin:10px;
+        color: white;
+        border: white;
+        box-shadow: none;
+}
+
+
+
